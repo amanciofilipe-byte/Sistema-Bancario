@@ -1,0 +1,18 @@
+matriz1 = []
+for i in range(2):
+    linha = []
+    for j in range(2):
+        elemento = int(input(f"Digite o elemento [{i}][{j}]: "))
+        linha.append(elemento)
+    matriz1.append(linha)
+
+matriz2 = []
+for i in range(2):
+    linha = []
+    for j in range(2):
+        elemento = int(input(f"Digite o elemento da matriz2 [{i}][{j}]: "))
+        linha.append(elemento)
+    matriz2.append(linha)
+
+def soma(m1, m2):
+    resultado = []
